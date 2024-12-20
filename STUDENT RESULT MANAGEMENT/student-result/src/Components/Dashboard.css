@@ -1,0 +1,36 @@
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 80px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+  color:#024550;
+  font-weight: 600;
+  border-radius: 5px;
+
+}
+hr{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+*{
+  font-family: "Poppins", sans-serif;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 85px;
+  padding: 8px;
+
+ 
+}
+html,body{
+  scroll-behavior: smooth;
+}
+
+
+.dropdown{
+  margin-top:50px;
+  margin-bottom: 50px;
+
+}
