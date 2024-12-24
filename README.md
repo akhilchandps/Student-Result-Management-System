@@ -53,21 +53,43 @@ To run the project locally, follow these steps:
 1. Ensure Docker is installed on your system.
 2. Build the Docker images for the frontend and backend:
    ```bash
-   docker-compose build
+   sudo docker-compose build
    ```
 3. Start the containers:
    ```bash
-   docker-compose up
+   sudo docker-compose up
    ```
 4. Access the application at `http://localhost:<configured_port>`.
 
 ## 🛡️ Features
 - Secure login for administrators, teachers, and students.
+- Admin functionalities:
+  - Add students, subjects, and classes.
+  - Publish results.
+- Student functionalities:
+  - Login with their registered number.
+  - View their results.
 - Easy result entry and management for administrators and teachers.
 - Quick and accessible result viewing for students.
 - Scalable and secure database for storing results.
 
+## 🤝 Contributing
+Contributions are welcome! To contribute:
 
+1. Fork the repository.
+2. Create your feature branch:
+   ```bash
+   git checkout -b feature/<feature_name>
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m '<feature_name> added'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/<feature_name>
+   ```
+5. Open a pull request.
 
 ## 📄 License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
