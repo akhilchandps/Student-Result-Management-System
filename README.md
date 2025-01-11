@@ -72,28 +72,7 @@ To run the project locally, follow these steps:
 - Easy result entry and management for administrators and teachers.
 - Quick and accessible result viewing for students.
 - Scalable and secure database for storing results.
-
-## 🤝 Contributing
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create your feature branch:
-   ```bash
-   git checkout -b feature/<feature_name>
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m '<feature_name> added'
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/<feature_name>
-   ```
-5. Open a pull request.
-
-## 📄 License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
+- 
 ---
 
 **Languages Used:**
